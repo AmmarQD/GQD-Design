@@ -28,6 +28,10 @@
   color: #eeeeee;
 }
 
+.t--dark .t-nav__item:hover {
+  color: #aaaaaa;
+}
+
 .t--dark .t-info__item{
   color: #eeeeee;
 }
@@ -49,6 +53,11 @@
   transition-property: *;
 }
 
+@media screen and (max-width: 960px) {
+  .o-menu__item {
+    display: none;
+  }
+}
 
 /* component layer */
 
