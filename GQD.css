@@ -1,0 +1,204 @@
+/* light theme */
+.t--light {
+  background-color: hsl(0, 0%, 99.99%);
+  color: hsl(0, 0%, 5%);
+}
+
+.t--light .t-menu__item {
+  background: #555555;
+  color: #eeeeee;
+}
+
+/* dark theme */
+.t--dark {
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 95%);
+}
+
+.t--dark .t-menu__item {
+  background: #eeeeee;
+  color: #555555; 
+}
+
+.t--dark .t-title__item {
+  color: #eeeeee;
+}
+
+.t--dark .t-nav__item {
+  color: #eeeeee;
+}
+
+.t--dark .t-info__item{
+  color: #eeeeee;
+}
+
+.t--dark .t-span__item{
+  color: #eeeeee;
+}
+
+
+/* object layer */
+
+.o-menu__item {
+  margin: 0 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  transition-duration: .3s;
+  transition-property: *;
+}
+
+
+/* component layer */
+
+.c-container {
+  height: 100%;
+  width: 100%;
+  
+  transition-duration: .3s;
+  transition-property: *;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', 'verdana';
+  color: #444444;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 36px;
+}
+
+.o-title__item {
+  color: #444444;  
+}
+
+@media (width: 320px) {
+	h1 {
+  text-align: center;
+  width: 100%;
+	}
+}
+
+@media (width: 360px) {
+	h1 {
+  text-align: center;
+  width: 100%;
+	}
+}
+
+#main-wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 40px 0;
+}
+
+nav {
+  float: right;
+  margin: 0;  
+  padding: 0;
+}
+
+@media (width: 320px) {
+  nav {
+  margin: 0 auto;
+  width: 82%;
+	}
+}
+
+@media (width: 360px) {
+  nav {
+  margin: 0 auto;
+  width: 79%;
+	}
+}
+
+nav ul {
+  margin: 12px 0;
+}
+
+nav li {
+  float: left;
+  padding: 0 0 0 5px;
+}
+
+.o-nav__item {
+  padding: 5px;
+  color: #555;
+  font-size: 20px;
+}
+
+.o-span__item {
+  padding: 8px;
+  font-size: 18px;
+  color: #555555;
+}
+
+nav a:hover {
+  color: #888888;
+}
+
+#album-wrapper {
+  max-width: 960px; 
+}
+
+#album {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.album-item {
+  padding: 5px 0;
+}
+
+.album-item img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.o-info__item{
+  color: #555;
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
